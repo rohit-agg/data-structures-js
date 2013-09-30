@@ -1,0 +1,11 @@
+{
+    "name": "data-structures-js",
+    "version": "0.0.1",
+    "description": "Some Basic Data Structures for use in JavaScript",
+    "preferGlobal": "true",
+    "bin": { "data-structure": "data-structure.js" },
+    "author": "Rohit Aggarwal",
+    "dependencies": {        
+    },
+    "engines": { "node": "*" }
+}
