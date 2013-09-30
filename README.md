@@ -1,9 +1,7 @@
 <h1>Data Structures</h1>
 Some Basic Data Structures for use in JavaScript
-<br/>
 Install
 npm install data-structures-js
-<br/>
 The Library provides the following Data Structure Implementations
 <ol>
 <li>Stack</li>
