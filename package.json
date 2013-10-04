@@ -1,12 +1,15 @@
 {
     "name": "data-structures-js",
     "id": "data-structures-js",
-    "_id": "data-structures-js@0.0.2",
-    "version": "0.0.2",
+    "_id": "data-structures-js@0.0.2-beta",
+    "version": "0.0.2-beta",
     "description": "Some Basic Data Structures for use in JavaScript",
-    "keywords": ["data-structure", "stack", "queue", "tree", "binary-search-tree", "red-black-tree",
-                    "priority-queue"],
-    "author": "Rohit Aggarwal",
+    "keywords": [ "data-structure", "stack", "queue", "dequeue", "priority-queue", "tree",
+                 "binary-search-tree", "red-black-tree" ],
+    "author": {
+        "name": "Rohit Aggarwal",
+        "email": "er.rohitaggarwal1989@gmail.com"
+    },
     "dependencies": {        
     },
     "repository": {
@@ -22,5 +25,9 @@
     "readmeFilename": "README.md",
     "engines": {
         "node": "*"
+    },
+    "license": {
+        "type": "MIT",
+        "url": "https://raw.github.com/errohitagg/data-structures-js/dev-0.0.1/LICENSE.md"
     }
 }

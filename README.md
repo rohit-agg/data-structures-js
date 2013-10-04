@@ -1,25 +1,53 @@
 #Data Structures
+
 Some Basic Data Structures for use in JavaScript
+
 ##Install
 ```
 npm install data-structures-js
 ```
+
 ###Description
 The Library provides the following Data Structure Implementations
 
 1. Stack
 2. Queue
-3. Priority Queue (implemented as Max-Heap)
-4. Binary Search Tree
-5. Red-Black Tree
+    1. Queue
+    2. Dequeue
+    3. Priority Queue
+3. Binary Search Tree
+4. Red-Black Tree
+5. Heap
+    1. Max-Heap
+    2. Min-Heap
+
 ##API
+
 ###Stack
 * push
 * pop
 * isEmpty
 * size
 * toString
+
+###Queue
+* enqueue
+* dequeue
+* isEmpty
+* size
+* toString
+
+###Dequeue
+* insertFront
+* insertRear
+* removeFront
+* removeRear
+* isEmpty
+* size
+* toString
+
 ##Author
 **Rohit Aggarwal**
+
 ##License
 **MIT**
