@@ -10,7 +10,6 @@
 
 // Require the required Stack Library
 var Stack   = require('./../lib/stack');
-var Log     = require('./log-test');
 
 /**
  *  @function           testStack
@@ -23,14 +22,21 @@ var Log     = require('./log-test');
 var testStack = function() {
 
     stack = new Stack();
+    count = 1;
 
-    var test = {};
+    console.log("Test " + count + " : Object of Stack class");
     
-    test['name']        = "Object of Stack class";
-    test['expected']    = Stack;
-    test['result']      = stack;    
-    
-    Log(test);
+    if (stack instanceof Stack) {
+        
+        console.log("Result: Success");
+        
+    } else {
+        
+        console.log("Result: Failure");
+        console.log("Your Output: " + stack);
+        console.log("Expected: " + new Stack());
+    }
+    console.log(stack.toString());
 }
 
 // Add the testStack function to module.exports

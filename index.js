@@ -9,11 +9,13 @@
  */
 
 // Retrieve all the Data Structure Libraries from the respective files
-var stack = require('./lib/stack');
-//var queue = require('./lib/queue');
+var stack   = require('./lib/stack');
+var queue   = require('./lib/queue');
+var dequeue = require('./lib/dequeue');
 //var binarySearchTree = require('/lib/binarySearchTree');
 
 // Add all the Libraries to module.exports with appropriate name
-module.exports.Stack = stack;
-//module.exports.Queue = queue;
+module.exports.Stack    = stack;
+module.exports.Queue    = queue;
+module.exports.Dequeue  = dequeue;
 //module.exports.BinarySearchTree = binarySearchTree;

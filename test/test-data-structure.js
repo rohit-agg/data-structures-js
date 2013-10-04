@@ -9,7 +9,11 @@
  */
 
 // Include the test libraries for all the data structures
-var testStack = require('./test-stack');
+var testStack   = require('./test-stack');
+var testQueue   = require('./test-queue');
+var testDequeue = require('./test-dequeue');
 
 // Run the test functions for the included data structures
 testStack();
+testQueue();
+testDequeue();

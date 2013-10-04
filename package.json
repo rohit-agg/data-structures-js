@@ -1,8 +1,8 @@
 {
     "name": "data-structures-js",
     "id": "data-structures-js",
-    "_id": "data-structures-js@0.0.1",
-    "version": "0.0.1",
+    "_id": "data-structures-js@0.0.2",
+    "version": "0.0.2",
     "description": "Some Basic Data Structures for use in JavaScript",
     "keywords": ["data-structure", "stack", "queue", "tree", "binary-search-tree", "red-black-tree",
                     "priority-queue"],
@@ -11,7 +11,7 @@
     },
     "repository": {
         "type": "git",
-        "url": "https://rohit_aggarwal@bitbucket.org/rohit_aggarwal/insure-me.git"
+        "url": "https://github.com/errohitagg/data-structures-js.git"
     },
     "directories": {
         "lib": "./"
