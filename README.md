@@ -32,6 +32,7 @@ The Library provides the following Data Structure Implementations
 * pop
 * isEmpty
 * size
+* search
 * toString
 
 ###Queue
@@ -39,6 +40,7 @@ The Library provides the following Data Structure Implementations
 * dequeue
 * isEmpty
 * size
+* search
 * toString
 
 ###Dequeue
@@ -48,6 +50,15 @@ The Library provides the following Data Structure Implementations
 * removeRear
 * isEmpty
 * size
+* search
+* toString
+
+###Binary Search Tree
+* insert
+* delete
+* isEmpty
+* size
+* search
 * toString
 
 ##Author
