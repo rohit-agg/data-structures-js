@@ -4,7 +4,7 @@
     "_id": "data-structures-js@0.0.2-beta",
     "version": "0.0.2-beta",
     "description": "Some Basic Data Structures for use in JavaScript",
-    "keywords": [ "data-structure", "stack", "queue", "dequeue", "priority-queue", "tree",
+    "keywords": [ "data-structure", "stack", "queue", "dequeue", "priority-queue", "linked-list", "tree",
                  "binary-search-tree", "red-black-tree" ],
     "author": {
         "name": "Rohit Aggarwal",
