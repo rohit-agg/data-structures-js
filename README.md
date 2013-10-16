@@ -18,7 +18,7 @@ The Library provides the following Data Structure Implementations
     3. Priority Queue
 3. Linked List
     1. [Linked List](https://github.com/errohitagg/data-structures-js/wiki/Linked-List)
-    2. Doubly Linked List
+    2. [Doubly Linked List](https://github.com/errohitagg/data-structures-js/wiki/Doubly-Linked-List)
 4. Tree
     1. [Binary Search Tree](https://github.com/errohitagg/data-structures-js/wiki/Binary-Search-Tree)
     2. Red-Black Tree

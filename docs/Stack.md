@@ -1,5 +1,3 @@
-# Stack
-
 ## API
 
 #### Constructor
