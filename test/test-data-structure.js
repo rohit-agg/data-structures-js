@@ -16,5 +16,5 @@ var testBinaryTree      = require('./test-binary-tree');
 
 // Run the test functions for the included data structures
 testStack();
-testQueue();
-testDequeue();
+//testQueue();
+//testDequeue();
