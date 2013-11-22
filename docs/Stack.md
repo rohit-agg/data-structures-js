@@ -36,7 +36,7 @@ for (i=0; i<numOfElem; i++) {
     stackObj.insert(i);
 }
 
-console.log("Size = " + stackObj.size());
+console.log("Size = " + stackObj.size);
 
 console.log(stackObj.toString());
 
