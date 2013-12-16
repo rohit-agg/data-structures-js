@@ -18,6 +18,7 @@ var binaryTree          = require('./lib/binaryTree');
 var redBlackTree        = require('./lib/redBlackTree');
 var maxHeap             = require('./lib/maxHeap');
 var minHeap             = require('./lib/minHeap');
+var priorityQueue       = require('./lib/priorityQueue');
 
 // Add all the Libraries to module.exports with appropriate name
 module.exports.Stack                    = stack;
@@ -29,3 +30,4 @@ module.exports.BinaryTree               = binaryTree;
 module.exports.RedBlackTree             = redBlackTree;
 module.exports.MaxHeap                  = maxHeap;
 module.exports.MinHeap                  = minHeap;
+module.exports.PriorityQueue            = priorityQueue;
