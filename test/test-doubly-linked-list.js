@@ -1,0 +1,1 @@
+var DoublyLinkedList   = require('./../lib/doublyLinkedList');

@@ -1,0 +1,1 @@
+var LinkedList   = require('./../lib/linkedList');

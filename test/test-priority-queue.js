@@ -1,0 +1,1 @@
+var PriorityQueue = require('./../lib/priorityQueue');

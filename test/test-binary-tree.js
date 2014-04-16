@@ -1,0 +1,1 @@
+var BinaryTree = require("./../lib/binaryTree");

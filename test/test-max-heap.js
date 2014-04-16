@@ -1,0 +1,1 @@
+var MaxHeap = require('./../lib/maxHeap');
