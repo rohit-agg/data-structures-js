@@ -67,8 +67,8 @@ var stackBoundary = function() {
     if (typeof stack.pop() !== "undefined")
         cases.push("Case: pop() on an empty Stack should be undefined");
         
-    if (stack.size() !== 0)
-        cases.push("Case: size() of an empty Stack should be zero");
+    if (stack.top !== 0)
+        cases.push("Case: top of an empty Stack should be zero");
         
     if (!stack.isEmpty())
         cases.push("Case: isEmpty() of an empty Stack should be true");
@@ -102,9 +102,6 @@ var stackApi = function() {
     
     if (typeof stack.isEmpty !== "function") 
         cases.push("Case: isEmpty is a function");
-    
-    if (typeof stack.size !== "function")
-        cases.push("Case: size is a function");
     
     if (typeof stack.search !== "function")
         cases.push("Case: search is a function");

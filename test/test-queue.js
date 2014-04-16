@@ -36,7 +36,6 @@ var testQueue = function() {
         console.log("Your Output: " + queue);
         console.log("Expected: " + new Queue());
     }
-    console.log(queue.toString());
 }
 
 // Add the testQueue function to module.exports

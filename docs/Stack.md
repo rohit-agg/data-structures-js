@@ -2,8 +2,7 @@
 
 | Property | Description |
 | --- | --- |
-| top | Current Top of Stack |
-| size | Current Size of the Stack |
+| top | Current Top/Size of Stack |
 | values | Array representation of the stored values in the Stack |
 | compare | Reference to the function used by the Stack for comparing two stored values |
 
@@ -36,7 +35,7 @@ for (i=0; i<numOfElem; i++) {
     stackObj.insert(i);
 }
 
-console.log("Size = " + stackObj.size);
+console.log("Size = " + stackObj.top);
 
 console.log(stackObj.toString());
 
