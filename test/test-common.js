@@ -26,29 +26,43 @@ var header = function(pText) {
     
     console.log("\n" + headerBreak);
     console.log("|| " + pText + " ||");
-    console.log(headerBreak + "\n");    
+    console.log(headerBreak);
 }
 
 /**
- *  @function           subHeader
+ *  @function           testHeader
  *  @param              [in] pText              Text to be printed
  *  @description
  *  <ul>
  *      <li>Text will be printed as a Sub-Header as Underlined, with trailing and leading line-break</li>
  *  </ul>
  */
-var subHeader = function(pText) {
+var testHeader = function(pText) {
     
-    var length = pText.length;
+    var length = pText.length + 6;
     var counter;
     var subHeaderBreak = "";
     
     for (counter = 1; counter <= length; counter++) { subHeaderBreak += "-" }
     
-    console.log("\n" + pText);
+    console.log("\nTest: " + pText);
     console.log(subHeaderBreak);
+}
+
+/**
+ *  @function           testCase
+ *  @param              [in] pText              Text to be printed
+ *  @description
+ *  <ul>
+ *      <li></li>
+ *  </ul>
+ */
+var testCase = function(pText) {
+
+    console.log("Case: " + pText);
 }
 
 // Add all the functions to module.exports
 module.exports.header       = header;
-module.exports.subHeader    = subHeader;
+module.exports.testHeader   = testHeader;
+module.exports.testCase     = testCase;
