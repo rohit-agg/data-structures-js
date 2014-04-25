@@ -22,3 +22,4 @@ var PriorityQueue		= require('./test-priority-queue');
 
 // Run the test functions for the included data structures
 testStack();
+testQueue();

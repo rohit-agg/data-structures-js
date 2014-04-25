@@ -1,6 +1,6 @@
 /**
  *  @file               test-stack.js
- *  @created            2012-09-29
+ *  @created            2013-09-29
  *  @author             Rohit Aggarwal
  *  @fileoverview
  *  <ul>
@@ -151,6 +151,7 @@ var stackBoundary = function() {
     var stack = new Stack();
     
     if (typeof stack.pop() !== "undefined") { cases.push("Case: 'pop()' on an empty Stack should be undefined"); }
+    if (typeof stack.remove() !== "undefined") { cases.push("Case: 'remove()' on an empty Stack should be undefined"); }
     if (stack.top !== 0) { cases.push("Case: 'top' of an empty Stack should be zero"); }
     if (!stack.isEmpty()) { cases.push("Case: 'isEmpty()' of an empty Stack should be true"); }
     if (stack.iterator().hasNext()) { cases.push("Case: 'hasNext()' of an empty Stack iterator should be false"); }
@@ -185,7 +186,7 @@ var stackApi = function() {
     if (!(stackIter instanceof Object)) { cases.push("Case: 'iterator' should return an instance of Object"); }
     if (typeof stackIter.next !== "function") { cases.push("Case: Object returned from iterator doesn't have 'next' as function"); }
     if (typeof stackIter.hasNext !== "function") { cases.push("Case: Object returned from iterator doesn't have 'hasNext' as function"); }
-    if (typeof stackIter.size !== "undefined" || typeof stackIter.value !== "undefined" || typeof stackIter.current !== "undefined") {
+    if (typeof stackIter.size !== "undefined" || typeof stackIter.values !== "undefined" || typeof stackIter.current !== "undefined") {
         cases.push("Case: Variables inside Object returned from iterator shouldn't be public and readable outside");
     }
     if (typeof stack.toString !== "function") { cases.push("Case: 'toString' is a function"); }
